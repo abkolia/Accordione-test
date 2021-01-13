@@ -1,0 +1,28 @@
+.section {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: block;
+}
+
+.section.active,
+.section:hover {
+    background-color: #ddd;
+}
+
+
+.sub-section {
+    padding: 0 18px;
+    background-color: #fff;
+    display: none;
+}
+
+.show {
+    display: block;
+}
